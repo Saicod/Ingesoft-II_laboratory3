@@ -1,0 +1,8 @@
+i=0
+i=i+1
+PRINT i; "squared=";i*i
+IF i>=1000 THEN GOTO 6
+// 
+GOTO 2
+PRINT "Program Completed."
+END
