@@ -1,9 +1,8 @@
 # Ingesoft-II_laboratory3
 
 # Punto 1
-Se crearon 3 tipos de transporte: Bus, Cab y Bicycle, los cuales se pueden elegir para que el objeto	
-Person (que representara al usuario que tiene que tiene que tomar transporte) se transporte de cierta 	
-manera en particular.
+Se crearon 3 tipos de transporte: **Bus, Cab y Bicycle,** los cuales se pueden elegir para que el objeto	
+**Person** (que representará al usuario) se transporte de cierta manera en particular.
 # Punto 2
 Se creó la fábrica de Pizzas de Medellín y sus respectivos estilos personalizados. Se creo la clase **MedellinPizzaStore**  la cúal cuenta con con 3 estilos de pizza distintos: **MedellinStyleBeansPizza**, **MedellinStyleChorizoPizza** y **MedellinStyleCoffeePizza**. Finalmente se implementó el ejemplo para que mostrara la orden en **PizzaTestDrive**.
 # Punto 3
