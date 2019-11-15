@@ -15,3 +15,5 @@ En el código de Continuous Obsolescence podemos ver un ejemplo del uso de @Depr
 Se creo una funcion que evalua el nivel de sofisticacion de un cafe, luego creamos diferentes cafes,	
 cada uno con un nivel de sofisticacion distinto, y se los pasamos a la funcion para que evalue esos 	
 niveles y los imprima en pantalla.
+La salida de consola que arroja el programa es la siguiente: 
+![alt text](images/punto-5 output.PNG)
