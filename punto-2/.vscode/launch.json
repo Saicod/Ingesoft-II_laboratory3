@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PizzaTestDrive",
+            "request": "launch",
+            "mainClass": "PizzaTestDrive"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PizzaTestDrive",
+            "request": "launch",
+            "mainClass": "headfirst.designpatterns.factory.pizzafm.PizzaTestDrive"
+        }
+    ]
+}
