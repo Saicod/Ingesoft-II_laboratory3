@@ -16,4 +16,5 @@ Se creo una funcion que evalua el nivel de sofisticacion de un cafe, luego cream
 cada uno con un nivel de sofisticacion distinto, y se los pasamos a la funcion para que evalue esos 	
 niveles y los imprima en pantalla.
 La salida de consola que arroja el programa es la siguiente: 
+
 ![](images/punto-5-output.PNG?raw=true)
