@@ -1,5 +1,10 @@
 # Ingesoft-II_laboratory3
 
+# Integrantes
+- Andrés Felipe Castillo Sopó
+- Santiago Velandia Casas
+
+
 # Punto 1
 Se crearon 3 tipos de transporte: **Bus, Cab y Bicycle,** los cuales se pueden elegir para que el objeto	
 **Person** (que representará al usuario) se transporte de cierta manera en particular.
