@@ -7,7 +7,7 @@ class Timed extends CondimentDecorator {
   }
 
   String getDescription() {
-    return drink.getDescription() + ", >2 min";
+    return drink.getDescription() + " - >2 min";
   }
 
   double cost() {

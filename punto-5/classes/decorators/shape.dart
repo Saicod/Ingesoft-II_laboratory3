@@ -1,13 +1,13 @@
 import '../drink.dart';
 import 'condiment_decorator.dart';
 
-class Figure extends CondimentDecorator {
-  Figure(Drink drink) {
+class Shape extends CondimentDecorator {
+  Shape(Drink drink) {
     this.drink = drink;
   }
 
   String getDescription() {
-    return drink.getDescription() + ", Figure";
+    return drink.getDescription() + " - Shape";
   }
 
   double cost() {
