@@ -1,7 +1,6 @@
-import 'beverage.dart';
+import 'drink.dart';
 
-class Coffee extends Beverage {
-
+class Coffee extends Drink {
   Coffee() {
     description = "Coffee";
   }

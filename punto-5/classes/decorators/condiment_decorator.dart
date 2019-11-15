@@ -1,9 +1,7 @@
-import '../beverage.dart';
+import '../drink.dart';
 
-abstract class CondimentDecorator extends Beverage {
-
-  Beverage beverage;
+abstract class CondimentDecorator extends Drink {
+  Drink drink;
 
   String getDescription();
-
 }

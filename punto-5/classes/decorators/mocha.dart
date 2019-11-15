@@ -1,18 +1,16 @@
-import '../beverage.dart';
+import '../drink.dart';
 import 'condiment_decorator.dart';
 
 class Mocha extends CondimentDecorator {
-
-  Mocha(Beverage beverage) {
-    this.beverage = beverage;
+  Mocha(Drink drink) {
+    this.drink = drink;
   }
 
   String getDescription() {
-    return beverage.getDescription() + ", Mocha";
+    return drink.getDescription() + ", Mocha";
   }
 
   double cost() {
-    return 0.20 + beverage.cost();
+    return 0.20 + drink.cost();
   }
-
 }

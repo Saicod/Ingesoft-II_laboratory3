@@ -1,18 +1,16 @@
-import '../beverage.dart';
+import '../drink.dart';
 import 'condiment_decorator.dart';
 
 class Timed extends CondimentDecorator {
-
-  Timed(Beverage beverage) {
-    this.beverage = beverage;
+  Timed(Drink drink) {
+    this.drink = drink;
   }
 
   String getDescription() {
-    return beverage.getDescription() + ", >2 min";
+    return drink.getDescription() + ", >2 min";
   }
 
   double cost() {
-    return 0.20 + beverage.cost();
+    return 0.20 + drink.cost();
   }
-
 }

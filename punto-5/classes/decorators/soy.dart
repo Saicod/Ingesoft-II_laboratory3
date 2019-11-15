@@ -1,18 +1,16 @@
-import '../beverage.dart';
+import '../drink.dart';
 import 'condiment_decorator.dart';
 
 class Soy extends CondimentDecorator {
-
-  Soy(Beverage beverage) {
-    this.beverage = beverage;
+  Soy(Drink drink) {
+    this.drink = drink;
   }
 
   String getDescription() {
-    return beverage.getDescription() + ", Soy";
+    return drink.getDescription() + ", Soy";
   }
 
   double cost() {
-    return 0.15 + beverage.cost();
+    return 0.15 + drink.cost();
   }
-
 }

@@ -1,18 +1,16 @@
-import '../beverage.dart';
+import '../drink.dart';
 import 'condiment_decorator.dart';
 
 class Milk extends CondimentDecorator {
-
-  Milk(Beverage beverage) {
-    this.beverage = beverage;
+  Milk(Drink drink) {
+    this.drink = drink;
   }
 
   String getDescription() {
-    return beverage.getDescription() + ", Milk";
+    return drink.getDescription() + ", Milk";
   }
 
   double cost() {
-    return 0.10 + beverage.cost();
+    return 0.10 + drink.cost();
   }
-
 }

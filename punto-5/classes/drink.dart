@@ -1,11 +1,9 @@
-abstract class Beverage {
-
-  String description = "Unknown beverage";
+abstract class Drink {
+  String description = "Unknown drink";
 
   String getDescription() {
     return description;
   }
 
   double cost();
-
 }
